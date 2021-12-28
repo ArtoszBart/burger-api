@@ -3,7 +3,20 @@ Burger API to learn simple APIs.
 
 [API site](https://art-burger-api.herokuapp.com/)
 
-## To get burger by ID
+## Run API
+`npm run start`
+
+## HTTP usage
+### Show all burgers
+/burgers
+
+
+### Show burger by ID
+/burgers/{ID}
+
+
+## Implementation
+### To get burger by ID
 
 ```
 fetch('https://art-burger-api.herokuapp.com/burgers/[BURGER_ID]')
