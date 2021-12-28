@@ -18,7 +18,7 @@ Burger API to learn simple APIs.
 ## Implementation
 ### To get burger by ID
 
-```
+```JavaScript
 fetch('https://art-burger-api.herokuapp.com/burgers/[BURGER_ID]')
   .then(response => response.json())
   .then(data => console.log(data));
